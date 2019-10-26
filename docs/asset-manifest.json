@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/legendary-song-list/static/css/main.34de6062.chunk.css",
+    "main.js": "/legendary-song-list/static/js/main.ecdfb145.chunk.js",
+    "main.js.map": "/legendary-song-list/static/js/main.ecdfb145.chunk.js.map",
+    "runtime-main.js": "/legendary-song-list/static/js/runtime-main.59bf795e.js",
+    "runtime-main.js.map": "/legendary-song-list/static/js/runtime-main.59bf795e.js.map",
+    "static/js/2.d0616a4f.chunk.js": "/legendary-song-list/static/js/2.d0616a4f.chunk.js",
+    "static/js/2.d0616a4f.chunk.js.map": "/legendary-song-list/static/js/2.d0616a4f.chunk.js.map",
+    "index.html": "/legendary-song-list/index.html",
+    "precache-manifest.6e9f07ca75b1683284a9921759b14f44.js": "/legendary-song-list/precache-manifest.6e9f07ca75b1683284a9921759b14f44.js",
+    "service-worker.js": "/legendary-song-list/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/legendary-song-list/static/css/main.34de6062.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.59bf795e.js",
+    "static/js/2.d0616a4f.chunk.js",
+    "static/css/main.34de6062.chunk.css",
+    "static/js/main.ecdfb145.chunk.js"
+  ]
+}
