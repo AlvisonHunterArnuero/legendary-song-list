@@ -7,14 +7,16 @@ class SongList extends Component {
     return this.props.songs.map(song => {
       return (
         <>
-          <li class="list-group-item bg-primary text-white" key={song.title}>
-            <button
-              className="btn btn-outline-danger btn-block text-uppercase"
+        <div className="col-xl-4 col-lg-6 col-sm-6 col-12 mb-2">
+
+            <button key={song.title}
+              className="btn btn-danger btn-block text-uppercase text-left"
               onClick={() => this.props.selectSong(song)}
             >
-              {song.title}
+              <i className="fa fa-play" aria-hidden="true"></i> &nbsp; {song.title}
             </button>
-          </li>
+          </div>
+          
         </>
       );
     });
@@ -22,8 +24,8 @@ class SongList extends Component {
 
   render() {
     return (
-      <div className="card">
-          <ul class="list-group text-center">{this.renderList()}</ul>
+      <div className="row">
+        {this.renderList()}
       </div>
     );
   }

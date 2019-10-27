@@ -1,66 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created by Alvison Hunter using React and Redux"
-    />
 
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/lux/bootstrap.min.css" rel="stylesheet" integrity="sha384-hVpXlpdRmJ+uXGwD5W6HZMnR9ENcKVRn855pPbuI/mwPIEKAuKgTKgGksVGmlAvt" crossorigin="anonymous">
-    <title>My Song List- Powered by Alvison Hunter</title>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created by Alvison Hunter using React and Redux" />
 
-    <style>
- 
-      html {
-       position: relative;
-       min-height: 100%;
-     }
-     body {
-       /* Margin bottom by footer height */
-       margin-bottom: 60px !important;
-     }
-     .footer {
-       position: absolute;
-       bottom: 0;
-       width: 100%;
-       /* Set the fixed height of the footer here */
-       height: 40px;
-       background-color: #000000;
-       color: #fff;
-       padding:15px;
-     }
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/lux/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-hVpXlpdRmJ+uXGwD5W6HZMnR9ENcKVRn855pPbuI/mwPIEKAuKgTKgGksVGmlAvt" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  <title>My Song List- Powered by Alvison Hunter</title>
 
-     .fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+  <style>
+    html {
+      position: relative;
+      min-height: 100%;
+    }
+
+    body {
+      /* Margin bottom by footer height */
+      margin-bottom: 60px !important;
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      /* Set the fixed height of the footer here */
+      height: 40px;
+      background-color: #000000;
+      color: #fff;
+      padding-top: 15px;
+    }
+
+
+    audio {
+      width: 100%;
+    }
+
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 767px) {
+  .fullscreen-bg {
+      background: url('livemusic.jpg') center center / cover no-repeat;
   }
-  @-webkit-keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
-  }
-  @keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
-  }
-  
-       </style> 
-  </head>
-  <body class="bg-primary container-fluid">
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
 
-    <footer class="footer text-white bg-primary border-top">
-      <div class="d-flex justify-content-center">
-        <p>Copyright © 2019, All Rights Reserved - Coded by Alvison Hunter. - Album Artwork Thumbnails belongs to <b><a class="text-white" href="https://musicbrainz.org">https://musicbrainz.org</a></b></p></div>
-    </footer>
-  </body>
+  .fullscreen-bg__video {
+      display: none;
+  }
+}
+
+
+  </style>
+</head>
+
+<body class="bg-dark container-fluid">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+
+<div class="fullscreen-bg">
+  <video loop muted autoplay poster="livemusic.jpg" class="fullscreen-bg__video">
+      <source src="livemusic.webm" type="video/webm">
+      <source src="livemusic.mp4" type="video/mp4">
+      <source src="livemusic.ogv" type="video/ogg">
+  </video>
+</div>
+  <div id="root"></div>
+
+  <footer class="footer text-white bg-primary border-top">
+    <div class="d-flex justify-content-center mb-2 bg-primary">
+      <p>Copyright © 2019, All Rights Reserved - Coded by Alvison Hunter. - Album Artwork Thumbnails belongs to <b><a
+            class="text-white" href="https://musicbrainz.org">https://musicbrainz.org</a></b></p>
+    </div>
+  </footer>
+</body>
+
 </html>
