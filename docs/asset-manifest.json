@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/legendary-song-list/static/css/main.34de6062.chunk.css",
-    "main.js": "/legendary-song-list/static/js/main.a9c82cf6.chunk.js",
-    "main.js.map": "/legendary-song-list/static/js/main.a9c82cf6.chunk.js.map",
+    "main.css": "/legendary-song-list/static/css/main.1b398baf.chunk.css",
+    "main.js": "/legendary-song-list/static/js/main.b4d525fc.chunk.js",
+    "main.js.map": "/legendary-song-list/static/js/main.b4d525fc.chunk.js.map",
     "runtime-main.js": "/legendary-song-list/static/js/runtime-main.59bf795e.js",
     "runtime-main.js.map": "/legendary-song-list/static/js/runtime-main.59bf795e.js.map",
     "static/js/2.d0616a4f.chunk.js": "/legendary-song-list/static/js/2.d0616a4f.chunk.js",
     "static/js/2.d0616a4f.chunk.js.map": "/legendary-song-list/static/js/2.d0616a4f.chunk.js.map",
     "index.html": "/legendary-song-list/index.html",
-    "precache-manifest.6797c793483b8cddbaf71065333317e3.js": "/legendary-song-list/precache-manifest.6797c793483b8cddbaf71065333317e3.js",
+    "precache-manifest.ec1e63ffdd6c04ad8a16d1e24a178e82.js": "/legendary-song-list/precache-manifest.ec1e63ffdd6c04ad8a16d1e24a178e82.js",
     "service-worker.js": "/legendary-song-list/service-worker.js",
-    "static/css/main.34de6062.chunk.css.map": "/legendary-song-list/static/css/main.34de6062.chunk.css.map"
+    "static/css/main.1b398baf.chunk.css.map": "/legendary-song-list/static/css/main.1b398baf.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.59bf795e.js",
     "static/js/2.d0616a4f.chunk.js",
-    "static/css/main.34de6062.chunk.css",
-    "static/js/main.a9c82cf6.chunk.js"
+    "static/css/main.1b398baf.chunk.css",
+    "static/js/main.b4d525fc.chunk.js"
   ]
 }

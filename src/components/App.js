@@ -3,12 +3,13 @@ import SongList from './SongList';
 import SongDetail from './SongDetail';
 
 
+
 const App = () => {
   return (
   <div className="container">
             <div className="card text-white bg-primary border-primary mb-2 mt-2">
                   <div className="card-body">
-                    <h4 className="card-title">My 90's Favorite Songs List</h4>
+                    <h4 className="card-title">My 15 favorites 90's Songs</h4>
                     <p className="card-text">Powered with React & Redux by Alvison Hunter</p>
                   </div>
             </div>

@@ -1,10 +1,8 @@
 import React from "react";
 import { connect } from "react-redux";
 
-
 const SongDetail = ({clickedSong})=>{
   if (!clickedSong) return <div className="display-4 text-center alert alert-dismissible alert-danger"><strong className="display-4 text-primary text-center">Please Select a Song</strong></div>;
-
   return (
     <div className="card">
          <div class="card-header text-danger">
@@ -13,8 +11,6 @@ const SongDetail = ({clickedSong})=>{
                   <div className="spinner-border ml-auto" role="status" aria-hidden="true"></div>
               </div>
         </div>
-
-    
  
     <div className="card-body mb-2">
     <div className="row">

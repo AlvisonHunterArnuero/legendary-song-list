@@ -12,3 +12,20 @@
 { title: "Smells Like Teen Spirit", album:"Nevermind", artist: "Nirvana", duration: "5:01", url:"https://coverartarchive.org/release/b52a8f31-b5ab-34e9-92f4-f5b7110220f0/7400041214-500.jpg" },
 { title: "Scar Tissue", album:"Californication", artist: "Red Hot Chili Peppers",duration: "3:36" , url:"https://coverartarchive.org/release-group/ca5dfcc3-83fb-3eee-9061-c27296b77b2c/front-500.jpg" },
 { title: "Shoots and Ladders", album:"Korn", artist: "Korn", duration: "5:23" , url:"https://coverartarchive.org/release-group/aa08a002-2777-39cf-a554-e0988fc68030/front-500.jpg" }
+
+
+// https://i.ibb.co/9VKc4df/1.jpg
+// https://i.ibb.co/y8tJkj3/2.jpg
+// https://i.ibb.co/8bNRPFs/3.jpg
+// https://i.ibb.co/3mqx8yM/4.jpg
+// https://i.ibb.co/f18PNBJ/5.jpg
+// https://i.ibb.co/xLkxmx9/6.jpg
+// https://i.ibb.co/Jd7KJck/7.jpg
+// https://i.ibb.co/BNxM4Cf/8.jpg
+// https://i.ibb.co/1QJJ2Dt/9.jpg
+// https://i.ibb.co/C1VtbMm/10.jpg
+// https://i.ibb.co/nBqGGyy/11.jpg
+// https://i.ibb.co/yFGdn03/12.jpg
+// https://i.ibb.co/3Bgq7Nv/13.jpg
+// https://i.ibb.co/2vknTs1/14.jpg
+// https://i.ibb.co/gM9cfx1/15.jpg
