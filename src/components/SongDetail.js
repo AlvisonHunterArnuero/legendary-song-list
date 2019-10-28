@@ -8,7 +8,7 @@ const SongDetail = ({clickedSong})=>{
          <div class="card-header text-danger">
               <div className="d-flex align-items-center mt-2">
                   <h4 className="text-info text-uppercase">Currently playing {clickedSong.title} </h4>
-                  <div className="spinner-border ml-auto" role="status" aria-hidden="true"></div>
+                  <div className="spinner-grow ml-auto" role="status" aria-hidden="true"></div>
               </div>
         </div>
  
