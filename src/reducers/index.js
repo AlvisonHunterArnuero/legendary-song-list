@@ -8,7 +8,7 @@ const songsReducer = () => {
       artist: "Garbage",
       duration: "3:14",
       rating: "★★★★☆",
-      audio: "../mp3/Cherry_Lips.mp3",
+      audio: "./mp3/Cherry_Lips.mp3",
       url: "https://i.ibb.co/9VKc4df/1.jpg",
     },
     {
@@ -17,7 +17,7 @@ const songsReducer = () => {
       artist: "Duran Duran",
       duration: "4:42",
       rating: "★☆☆☆☆",
-      audio: "../mp3/Ordinary_World.mp3",
+      audio: "./mp3/Ordinary_World.mp3",
       url: "https://i.ibb.co/y8tJkj3/2.jpg",
     },
     {
@@ -26,7 +26,7 @@ const songsReducer = () => {
       artist: "Oasis",
       duration: "4:17",
       rating: "★★☆☆☆",
-      audio: "../mp3/Wonderwall.mp3",
+      audio: "./mp3/Wonderwall.mp3",
       url: "https://i.ibb.co/8bNRPFs/3.jpg",
     },
     {
@@ -35,7 +35,7 @@ const songsReducer = () => {
       artist: "Incubus",
       duration: "3:52",
       rating: "★★★☆☆",
-      audio: "../mp3/Drive.mp3",
+      audio: "./mp3/Drive.mp3",
       url: "https://i.ibb.co/3mqx8yM/4.jpg",
     },
     {
@@ -44,7 +44,7 @@ const songsReducer = () => {
       artist: "Radiohead",
       duration: "4:17",
       rating: "★☆☆☆☆",
-      audio: "../mp3/High_And_Dry.mp3",
+      audio: "./mp3/High_And_Dry.mp3",
       url: "https://i.ibb.co/f18PNBJ/5.jpg",
     },
 
@@ -54,7 +54,7 @@ const songsReducer = () => {
       artist: "Rammstein",
       duration: "3:51",
       rating: "★★★★☆",
-      audio: "../mp3/Asche_Zu_Asche.mp3",
+      audio: "./mp3/Asche_Zu_Asche.mp3",
       url: "https://i.ibb.co/2FCL37H/herzeleid.jpg",
     },
 
@@ -64,7 +64,7 @@ const songsReducer = () => {
       artist: "Red Hot Chili Peppers",
       duration: "3:23",
       rating: "★★★★☆",
-      audio: "../mp3/Road_Trippin.MP3",
+      audio: "./mp3/Road_Trippin.MP3",
       url: "https://i.ibb.co/gM9cfx1/15.jpg",
     },
 
@@ -74,7 +74,7 @@ const songsReducer = () => {
       artist: "The Smashing Pumpkins",
       duration: "4:17",
       rating: "★★★★☆",
-      audio: "../mp3/Bullet_With_Butterfly_Wings.mp3",
+      audio: "./mp3/Bullet_With_Butterfly_Wings.mp3",
       url: "https://i.ibb.co/xLkxmx9/6.jpg",
     },
     {
@@ -83,7 +83,7 @@ const songsReducer = () => {
       artist: "System of a Down",
       duration: "3:30",
       rating: "★★★☆☆",
-      audio: "../mp3/Chop_Suey.mp3",
+      audio: "./mp3/Chop_Suey.mp3",
       url: "https://i.ibb.co/Jd7KJck/7.jpg",
     },
     {
@@ -92,7 +92,7 @@ const songsReducer = () => {
       artist: "Puddle of Mudd",
       duration: "5:02",
       rating: "★★☆☆☆",
-      audio: "../mp3/Blurry.MP3",
+      audio: "./mp3/Blurry.MP3",
       url: "https://i.ibb.co/BNxM4Cf/8.jpg",
     },
     {
@@ -101,7 +101,7 @@ const songsReducer = () => {
       artist: "Red Hot Chili Peppers",
       duration: "3:37",
       rating: "★★★★☆",
-      audio: "../mp3/By_The_Way.mp3",
+      audio: "./mp3/By_The_Way.mp3",
       url: "https://i.ibb.co/6XhR5j2/by-the-way.jpg",
     },
 
@@ -111,7 +111,7 @@ const songsReducer = () => {
       artist: "Beastie Boys",
       duration: "2:37",
       rating: "★★★★★",
-      audio: "../mp3/Brass_Monkey.MP3",
+      audio: "./mp3/Brass_Monkey.MP3",
       url: "https://i.ibb.co/mX3ssDv/licensed-to-ill.jpg",
     },
 
@@ -121,7 +121,7 @@ const songsReducer = () => {
       artist: "Garbage",
       duration: "3:38",
       rating: "★★★★☆",
-      audio: "../mp3/Paranoid.mp3",
+      audio: "./mp3/Paranoid.mp3",
       url: "https://i.ibb.co/72x3jQ3/version2-garbage.jpg",
     },
 
@@ -131,7 +131,7 @@ const songsReducer = () => {
       artist: "Beck",
       duration: "3:29",
       rating: "★☆☆☆☆",
-      audio: "../mp3/Que_Onda_Guero.mp3",
+      audio: "./mp3/Que_Onda_Guero.mp3",
       url: "https://i.ibb.co/1QJJ2Dt/9.jpg",
     },
 
@@ -141,7 +141,7 @@ const songsReducer = () => {
       artist: "Red Hot Chili Peppers",
       duration: "4:23",
       rating: "★★★★★",
-      audio: "../mp3/Under_The_Bridge.mp3",
+      audio: "./mp3/Under_The_Bridge.mp3",
       url: "https://i.ibb.co/LPjnvnS/blood-sugar-sex.jpg",
     },
 
@@ -151,7 +151,7 @@ const songsReducer = () => {
       artist: "The Cranberries",
       duration: "3:31",
       rating: "★☆☆☆☆",
-      audio: "../mp3/Animal_Instinct.mp3",
+      audio: "./mp3/Animal_Instinct.mp3",
       url: "https://i.ibb.co/C1VtbMm/10.jpg",
     },
     {
@@ -160,7 +160,7 @@ const songsReducer = () => {
       artist: "No Doubt",
       duration: "4:21",
       rating: "★★☆☆☆",
-      audio: "../mp3/Dont_Speak.mp3",
+      audio: "./mp3/Dont_Speak.mp3",
       url: "https://i.ibb.co/nBqGGyy/11.jpg",
     },
 
@@ -170,7 +170,7 @@ const songsReducer = () => {
       artist: "HIM",
       duration: "3:54",
       rating: "★★★★☆",
-      audio: "../mp3/Wicked_Game.mp3",
+      audio: "./mp3/Wicked_Game.mp3",
       url: "https://i.ibb.co/YjzVjMN/greatest-love-songs.jpg",
     },
 
@@ -180,7 +180,7 @@ const songsReducer = () => {
       artist: "Soundgarden",
       duration: "5:17",
       rating: "★★☆☆☆",
-      audio: "../mp3/Black_Hole_Sun.mp3",
+      audio: "./mp3/Black_Hole_Sun.mp3",
       url: "https://i.ibb.co/yFGdn03/12.jpg",
     },
 
@@ -190,7 +190,7 @@ const songsReducer = () => {
       artist: "The Offspring",
       duration: "3:08",
       rating: "★★★☆☆",
-      audio: "../mp3/Pretty_Fly.mp3",
+      audio: "./mp3/Pretty_Fly.mp3",
       url: "https://i.ibb.co/3Bgq7Nv/13.jpg",
     },
     {
@@ -199,7 +199,7 @@ const songsReducer = () => {
       artist: "Nirvana",
       duration: "5:01",
       rating: "★★★★☆",
-      audio: "../mp3/Smells_Like_Teen_Spirit.mp3",
+      audio: "./mp3/Smells_Like_Teen_Spirit.mp3",
       url: "https://i.ibb.co/2vknTs1/14.jpg",
     },
     {
@@ -208,7 +208,7 @@ const songsReducer = () => {
       artist: "Red Hot Chili Peppers",
       duration: "3:37",
       rating: "★★★★☆",
-      audio: "../mp3/Scar_Tissue.mp3",
+      audio: "./mp3/Scar_Tissue.mp3",
       url: "https://i.ibb.co/gM9cfx1/15.jpg",
     },
 
@@ -218,7 +218,7 @@ const songsReducer = () => {
       artist: "Red Hot Chili Peppers",
       duration: "4:02",
       rating: "★★★★☆",
-      audio: "../mp3/my_friends.mp3",
+      audio: "./mp3/my_friends.mp3",
       url: "https://i.ibb.co/NYBmJJX/one-hot-minute.jpg",
     },
   ];
