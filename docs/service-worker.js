@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/legendary-song-list/precache-manifest.7e15a04d6af7db76f3163a22a3c9797a.js"
+  "/legendary-song-list/precache-manifest.09f6ab84293783442bd2720b223310a8.js"
 );
 
 self.addEventListener('message', (event) => {

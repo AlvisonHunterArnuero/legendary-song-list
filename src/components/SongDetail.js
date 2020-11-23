@@ -19,10 +19,12 @@ const SongDetail = ({ clickedSong }) => {
             Currently playing {clickedSong.title}{" "}
           </h4>
           <div
-            className="spinner-grow ml-auto"
+            className="spinner-grow text-info ml-auto"
             role="status"
             aria-hidden="true"
-          ></div>
+          >
+            <span class="sr-only">Playing...</span>
+          </div>
         </div>
       </div>
 
@@ -48,7 +50,7 @@ const SongDetail = ({ clickedSong }) => {
                 <h2 className="text-uppercase text-primary">ARTIST</h2>
               </li>
               <li className="list-group-item">
-                <h4 className="text-uppercase text-muted">
+                <h4 className="text-uppercase text-success">
                   {clickedSong.artist}
                 </h4>
               </li>
@@ -58,7 +60,7 @@ const SongDetail = ({ clickedSong }) => {
               </li>
 
               <li className="list-group-item">
-                <h4 className="text-uppercase text-muted">
+                <h4 className="text-uppercase text-success">
                   {clickedSong.album}
                 </h4>
               </li>
@@ -68,9 +70,9 @@ const SongDetail = ({ clickedSong }) => {
               </li>
 
               <li className="list-group-item">
-                <h4 className="text-uppercase text-muted">
+                <h3 className="text-uppercase text-danger">
                   {clickedSong.rating}
-                </h4>
+                </h3>
               </li>
 
               <li className="list-group-item">
@@ -78,7 +80,7 @@ const SongDetail = ({ clickedSong }) => {
               </li>
 
               <li className="list-group-item">
-                <h4 className="text-uppercase text-muted">
+                <h4 className="text-uppercase text-success">
                   {clickedSong.duration}
                 </h4>
               </li>

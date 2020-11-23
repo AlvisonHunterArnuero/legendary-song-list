@@ -47,7 +47,6 @@ const songsReducer = () => {
       audio: "./mp3/High_And_Dry.mp3",
       url: "https://i.ibb.co/f18PNBJ/5.jpg",
     },
-
     {
       title: "Asche Zu Asche",
       album: "Herzeleid",
@@ -57,17 +56,15 @@ const songsReducer = () => {
       audio: "./mp3/Asche_Zu_Asche.mp3",
       url: "https://i.ibb.co/2FCL37H/herzeleid.jpg",
     },
-
     {
       title: "Road Trippin",
       album: "Californication",
       artist: "Red Hot Chili Peppers",
       duration: "3:23",
       rating: "★★★★☆",
-      audio: "./mp3/Road_Trippin.MP3",
+      audio: "./mp3/Road_Trippin.mp3",
       url: "https://i.ibb.co/gM9cfx1/15.jpg",
     },
-
     {
       title: "Bullet With Butterfly Wings",
       album: "Mellon Collie and the Infinite Sadness ",
@@ -92,7 +89,7 @@ const songsReducer = () => {
       artist: "Puddle of Mudd",
       duration: "5:02",
       rating: "★★☆☆☆",
-      audio: "./mp3/Blurry.MP3",
+      audio: "./mp3/Blurry.mp3",
       url: "https://i.ibb.co/BNxM4Cf/8.jpg",
     },
     {
@@ -104,17 +101,15 @@ const songsReducer = () => {
       audio: "./mp3/By_The_Way.mp3",
       url: "https://i.ibb.co/6XhR5j2/by-the-way.jpg",
     },
-
     {
       title: "Brass Monkey",
       album: "Licensed to Ill",
       artist: "Beastie Boys",
       duration: "2:37",
       rating: "★★★★★",
-      audio: "./mp3/Brass_Monkey.MP3",
+      audio: "./mp3/Brass_Monkey.mp3",
       url: "https://i.ibb.co/mX3ssDv/licensed-to-ill.jpg",
     },
-
     {
       title: "I think I am paranoid",
       album: "Version 2.0",
@@ -124,7 +119,6 @@ const songsReducer = () => {
       audio: "./mp3/Paranoid.mp3",
       url: "https://i.ibb.co/72x3jQ3/version2-garbage.jpg",
     },
-
     {
       title: "Que Onda Guero?",
       album: "Mellow Gold",
@@ -134,7 +128,6 @@ const songsReducer = () => {
       audio: "./mp3/Que_Onda_Guero.mp3",
       url: "https://i.ibb.co/1QJJ2Dt/9.jpg",
     },
-
     {
       title: "Under The Bridge",
       album: "Blood Sugar Sex Magik",
@@ -144,7 +137,6 @@ const songsReducer = () => {
       audio: "./mp3/Under_The_Bridge.mp3",
       url: "https://i.ibb.co/LPjnvnS/blood-sugar-sex.jpg",
     },
-
     {
       title: "Animal Instinct",
       album: "Bury the Hatchet",
@@ -163,7 +155,6 @@ const songsReducer = () => {
       audio: "./mp3/Dont_Speak.mp3",
       url: "https://i.ibb.co/nBqGGyy/11.jpg",
     },
-
     {
       title: "Wicked Game",
       album: "Greatest Lovesongs Vol. 666",
@@ -173,7 +164,6 @@ const songsReducer = () => {
       audio: "./mp3/Wicked_Game.mp3",
       url: "https://i.ibb.co/YjzVjMN/greatest-love-songs.jpg",
     },
-
     {
       title: "Black Hole Sun",
       album: "Superunknown",
@@ -183,7 +173,6 @@ const songsReducer = () => {
       audio: "./mp3/Black_Hole_Sun.mp3",
       url: "https://i.ibb.co/yFGdn03/12.jpg",
     },
-
     {
       title: "Pretty Fly (For a White Guy)",
       album: "Americana",
@@ -211,7 +200,6 @@ const songsReducer = () => {
       audio: "./mp3/Scar_Tissue.mp3",
       url: "https://i.ibb.co/gM9cfx1/15.jpg",
     },
-
     {
       title: "My friends",
       album: "One Hot Minute",
