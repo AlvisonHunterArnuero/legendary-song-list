@@ -12,3 +12,16 @@ code {
     monospace;
 }
 
+.song-list {
+  max-height: 52%;
+  margin-bottom: 0px;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.list-group-item {
+  background-color: transparent;
+  border-radius: 0;
+  color: #fff;
+  border: 0px solid transparent !important;
+}
